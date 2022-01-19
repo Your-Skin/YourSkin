@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/economica_bold</item>
+        <item>@font/gudea</item>
+        <item>@font/playfair_display</item>
+        <item>@font/playfair_display_black</item>
+        <item>@font/playfair_display_bold</item>
+    </array>
+</resources>

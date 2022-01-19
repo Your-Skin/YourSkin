@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moisturizer.moisturizer"
+    android:background="#9CB898">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="585dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-90dp"
+        android:background="@drawable/backmois"
+        android:layout_centerInParent="true">
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="moisturizer"
+        android:textColor="#3B5E36"
+        android:fontFamily="@font/bebas"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="63dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="360dp"
+        android:layout_height="420dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="20dp">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="520dp"
+                android:layout_height="238dp"
+                android:background="@drawable/mois">
+
+                <Button
+                    android:id="@+id/surgebutton"
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="34dp"
+                    android:background="#00444444" />
+                <Button
+                    android:id="@+id/ambutton"
+                    android:layout_marginLeft="300dp"
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    android:background="#00444444" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/buttonnext" >
+                <Button
+                    android:id="@+id/moisrnext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"></RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

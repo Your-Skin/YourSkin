@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourskin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".fetchProductList" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name="admin.Update" />
+        <activity android:name="admin.Insert" />
+        <activity android:name=".ListProduct" />
+        <activity android:name=".MatchSkincare" />
+        <activity android:name=".match">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.SEARCH"
+                    android:theme="@style/search" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="admin.manageAdmin" />
+        <activity android:name="admin.login" />
+        <activity android:name="sunscreen.sunscreen" />
+        <activity android:name="cream.cream" />
+        <activity android:name="moisturizer.moisturizer" />
+        <activity android:name="serum.serum" />
+        <activity android:name="essence.essence" />
+        <activity android:name="toner.toner" />
+        <activity android:name="cleanser.fetchData" />
+        <activity android:name="cleanser.cleanser" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="admin.Delete" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

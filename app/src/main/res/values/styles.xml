@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#C097BA</item>
+        <item name="colorPrimaryDark">#C097BA</item>
+        <item name="colorAccent">#904485</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/bebas</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#684663</item>
+    </style>
+
+    <style name="search" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#C097BA</item>
+        <item name="colorPrimaryDark">#C097BA</item>
+        <item name="colorAccent">#904485</item>
+    </style>
+
+</resources>

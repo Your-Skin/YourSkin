@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/backdata">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/card">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Skincare's name to update :"
+            android:fontFamily="@font/bebastwo"
+            android:textColor="#3F0B37"
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="26dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/ed_name"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update :"
+            android:fontFamily="@font/bebastwo"
+            android:textColor="#3F0B37"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="26dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingredient"
+        android:id="@+id/ed_ingre"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:id="@+id/ed_cate"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="LinkPicture"
+        android:id="@+id/ed_pic"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cardbuttom"
+        android:fontFamily="@font/bebas"
+        android:text="update"
+        android:textColor="#3F0B37"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/ed_update"
+        />
+</LinearLayout>
+
+</LinearLayout>
