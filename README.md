@@ -1,9 +1,6 @@
-# Your-Skin-App
+# Getting Started
 
-1.copy code ใน myskin.sql ลงใน phpmyadmin
-
-2.change ip_address URL ใน  android studio
-ใน package com.exanple.yourskin เปลี่ยนในไฟล์
+Open Project in Android Studio and change ip_address URL in package com.exanple.yourskin on these file
 
 	1.ListURL.java
   
